@@ -1601,7 +1601,7 @@ public class ViewPager extends ViewGroup {
         mDecorChildCount = decorCount;
 
         if (mFirstLayout) {
-            scrollToItem(mCurItem, false, 0, false);
+            scrollToItem(mCurItem, false, 0, true);
         }
         mFirstLayout = false;
     }
